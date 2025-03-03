@@ -1,0 +1,9 @@
+[
+  {
+    "value": {
+      "jit": "off"
+    },
+    "op": "add",
+    "path": "/postgres/settings"
+  }
+]
