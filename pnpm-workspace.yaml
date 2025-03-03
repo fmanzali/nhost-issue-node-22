@@ -1,8 +1,5 @@
 packages:
   - "backend"
-  - "backend/packages/*"
   - "backend/tester"
   - "frontend"
-  - "gql-api"
-  - "admin"
   - "packages/*"
