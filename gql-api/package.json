@@ -1,0 +1,29 @@
+{
+  "name": "gql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "types": "types/src/index.d.ts",
+  "scripts": {
+    "codegen": "graphql-codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "5.0.2",
+    "@graphql-codegen/client-preset": "4.2.4",
+    "@graphql-typed-document-node/core": "3.2.0",
+    "@types/uuid": "9.0.8",
+    "eslint": "9.0.0",
+    "eslint-config-prettier": "9.1.0",
+    "graphql": "16.8.1",
+    "prettier": "3.2.5",
+    "typescript": "5.4.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "frac-ordering": "workspace:*",
+    "uuid": "9.0.1"
+  }
+}
